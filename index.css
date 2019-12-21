@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(24, 24, 24, 0.87);
+}
+
+li {
+    float: right;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+}
+
+a {
+    display: block;   
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    margin: 5%;
+}
