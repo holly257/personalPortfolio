@@ -19,8 +19,40 @@ a {
 
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
-#main {
+hr {
+    width: 75%;
+}
+
+#first-hr {
+    margin-top: 6%;
+}
+
+#intro {
     margin: 5%;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#quiz-app {
+    width: 95%;
+}
+
+h6{
+    display: inline-block;
+    margin: 0 5% 5% 5%;
+    font-size: 15px;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+p {
+    font-style: italic;
 }
