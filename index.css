@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -14,25 +20,44 @@ li {
 }
 
 a {
-    display: block;   
-}
-
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-
+    display: block;  
+    text-decoration: none; 
 }
 
 hr {
     width: 75%;
 }
 
+h6{
+    display: inline-block;
+    margin: 0 5% 5% 5%;
+    font-size: 15px;
+    color: black;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+p {
+    font-style: italic;
+}
+
+img {
+    outline-style: double;
+}
+
+.appFooter a {
+    color: black;
+}
+
 #first-hr {
     margin-top: 6%;
+    margin-bottom: 0;
 }
 
 #intro {
-    margin: 5%;
+    margin: 4%;
 }
 
 #portfolio {
@@ -43,16 +68,31 @@ hr {
     width: 95%;
 }
 
-h6{
-    display: inline-block;
-    margin: 0 5% 5% 5%;
-    font-size: 15px;
+#nav-bar a {
+    color: white;
+    font-size: smaller;
 }
 
-h5 {
-    margin-bottom: 0;
-}
+@media (min-width: 800px) {
+    body {
+        font-size: 140%;
+    }
 
-p {
-    font-style: italic;
+    #intro {
+        margin: 15%;
+    }
+
+    #quiz-app {
+        width: 40%;
+    }
+
+    #nav-bar {
+        font-size: x-large;
+    }
+
+    .appFooter {
+        font-size: large;
+    }
+
+
 }
