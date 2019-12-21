@@ -90,6 +90,14 @@ img {
         font-size: x-large;
     }
 
+    #portfolio {
+        margin-top: 5%;
+    }
+
+    img {
+        margin-top: 4%;
+    }
+
     .appFooter {
         font-size: large;
     }
