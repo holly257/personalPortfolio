@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+  
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
+  
+nav, footer {
+    padding: 1% 0;
+    background-color: lightgray;
+}
+  
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    text-align: right;
+    padding-right: 45px;
+}
+  
+header {
+    padding: 12% 0;
+}
+  
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: rgba(128, 128, 128, 0.664);
+}
+  
+section:nth-child(even) {
+    background-color: lightgrey;
+}
+  
