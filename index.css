@@ -8,9 +8,12 @@ body {
     font-size: 20px;
     color: black;
     text-align: center;
-    line-height: 1.5;
 }
-  
+
+header {
+    padding: 12% 0;
+}
+
 nav, footer {
     padding: 1% 0;
     background-color: lightgray;
@@ -18,16 +21,12 @@ nav, footer {
   
 nav {
     position: fixed;
+    text-align: right;
+    padding-right: 45px;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-    text-align: right;
-    padding-right: 45px;
-}
-  
-header {
-    padding: 12% 0;
 }
   
 section {
