@@ -1,0 +1,106 @@
+/* body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(24, 24, 24, 0.87);
+}
+
+li {
+    float: right;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+}
+
+a {
+    display: block;  
+    text-decoration: none; 
+}
+
+hr {
+    width: 75%;
+}
+
+h6{
+    display: inline-block;
+    margin: 0 5% 5% 5%;
+    font-size: 15px;
+    color: black;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+p {
+    font-style: italic;
+}
+
+img {
+    outline-style: double;
+}
+
+.appFooter a {
+    color: black;
+}
+
+#first-hr {
+    margin-top: 6%;
+    margin-bottom: 0;
+}
+
+#intro {
+    margin: 4%;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#quiz-app {
+    width: 95%;
+}
+
+#nav-bar a {
+    color: white;
+    font-size: smaller;
+}
+
+@media (min-width: 800px) {
+    body {
+        font-size: 140%;
+    }
+
+    #intro {
+        margin: 15%;
+    }
+
+    #quiz-app {
+        width: 40%;
+    }
+
+    #nav-bar {
+        font-size: x-large;
+    }
+
+    #portfolio {
+        margin-top: 5%;
+    }
+
+    img {
+        margin-top: 4%;
+    }
+
+    .appFooter {
+        font-size: large;
+    }
+
+
+} */
