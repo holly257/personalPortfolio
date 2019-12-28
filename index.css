@@ -36,6 +36,21 @@ section {
 }
   
 section:nth-child(even) {
-    background-color: lightgrey;
+    background-color: grey;
 }
-  
+
+
+/* grid formatting */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 240px 240px;
+    background-color: lightgrey;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.gridHead {
+    grid-column: 1 / 4;
+
+}
