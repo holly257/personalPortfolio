@@ -1,106 +1,56 @@
-/* body {
-    margin: 0;
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+  
+body {
     font-family: 'Montserrat', sans-serif;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(24, 24, 24, 0.87);
-}
-
-li {
-    float: right;
-    padding: 4px;
-    margin: 4px;
-    color: white;
-}
-
-a {
-    display: block;  
-    text-decoration: none; 
-}
-
-hr {
-    width: 75%;
-}
-
-h6{
-    display: inline-block;
-    margin: 0 5% 5% 5%;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
-}
-
-h5 {
-    margin-bottom: 0;
-}
-
-p {
-    font-style: italic;
-}
-
-img {
-    outline-style: double;
-}
-
-.appFooter a {
-    color: black;
-}
-
-#first-hr {
-    margin-top: 6%;
-    margin-bottom: 0;
-}
-
-#intro {
-    margin: 4%;
-}
-
-#portfolio {
     text-align: center;
 }
 
-#quiz-app {
-    width: 95%;
+header {
+    padding: 12% 0;
 }
 
-#nav-bar a {
-    color: white;
-    font-size: smaller;
+nav, footer {
+    padding: 1% 0;
+    background-color: lightgray;
+}
+  
+nav {
+    position: fixed;
+    text-align: right;
+    padding-right: 45px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+  
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: rgba(128, 128, 128, 0.664);
+}
+  
+section:nth-child(even) {
+    background-color: grey;
 }
 
-@media (min-width: 800px) {
-    body {
-        font-size: 140%;
-    }
 
-    #intro {
-        margin: 15%;
-    }
+/* grid formatting */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 240px 240px;
+    background-color: lightgrey;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
 
-    #quiz-app {
-        width: 40%;
-    }
+.gridHead {
+    grid-column: 1 / 4;
 
-    #nav-bar {
-        font-size: x-large;
-    }
-
-    #portfolio {
-        margin-top: 5%;
-    }
-
-    img {
-        margin-top: 4%;
-    }
-
-    .appFooter {
-        font-size: large;
-    }
-
-
-} */
+}
