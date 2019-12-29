@@ -4,7 +4,7 @@ function myFunction() {
 
 
 //debug later
-window.onClick = function(event) {
+window.onclick = function(event) {
     if(!event.target.matches(".dropbtn")) {
         let dropdowns = document.getElementsByClassName("dropdown-content");
         let i;
