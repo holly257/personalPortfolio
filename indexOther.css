@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     padding: 10px;
 }
@@ -40,7 +40,6 @@ section:nth-child(even) {
 }
 
 
-/* grid formatting */
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -53,4 +52,4 @@ section:nth-child(even) {
 .gridHead {
     grid-column: 1 / 4;
 
-}
+} */
