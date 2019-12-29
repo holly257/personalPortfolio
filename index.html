@@ -11,11 +11,39 @@
 </head>
 <body>
     <nav role="navigation" id="nav-bar">
-        <ul>
-            <li><a href="https://github.com/holly257/">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/holly-rogers-1194a0178/">LinkedIn</a></li>
-            <li>Contact</li>
-        </ul>
+        <div class="dropdown">
+            <button onClick="myFunction()" class="dropbtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <ul>
+                    <li><a href="https://github.com/holly257/">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/holly-rogers-1194a0178/">LinkedIn</a></li>
+                    <li>Contact</li>
+                </ul>
+                
+                
+                <!-- <a href="">link 1</a>
+                <a href="">link2</a>
+                <a href="">link 3</a> -->
+            </div>
+        </div>
+        <!-- <div class="mobileNav">
+            <div class="menu-btn" id="menu-btn"></div>
+            <div></div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div id="responsive-menu">
+                <ul>
+                    <li><a href="https://github.com/holly257/">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/holly-rogers-1194a0178/">LinkedIn</a></li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div> -->
     </nav>
 
     <br>
@@ -69,5 +97,7 @@
         </section>
     </main>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/index.js"></script>
 </body>
 </html> 
