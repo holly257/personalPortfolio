@@ -120,11 +120,16 @@ nav {
 /* intro */
 #intro {
     background-image: url("images/backgroundImg.jpg");
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .heroFull {
     display: none;
+}
+
+.heroMobile {
+    margin-top: 60px;
 }
 
 /* hr formatting */
