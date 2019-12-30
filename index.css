@@ -10,17 +10,12 @@ body {
     margin: 0;
 }
 
-img {
-    outline-style: double;
-}  
-
 /* header and footer */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 100px;
 }
 
 li {
@@ -46,6 +41,16 @@ nav {
     background-color: #1A2930;
 }
 
+#nav-hero {
+    height: 50px;
+}
+
+#nav-hero-div {
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+}
 /* dropdown */
 .dropbtn {
     background-color: #1A2930;
@@ -61,8 +66,10 @@ nav {
 }
 
 .dropdown {
+    /* text-align: right; */
     position: relative;
     display: inline-block;
+
 }
 
 .dropdown-content {
@@ -93,7 +100,7 @@ nav {
     width: 20px;
     height: 3px;
     margin: 4px 0;
-    background: #c6a530;
+    background: #f1f1f1;
     z-index: 99;
 }
 
@@ -112,17 +119,11 @@ nav {
 
 /* intro */
 #intro {
-    margin: 47px 0;
-    background-image: url("images/Background.jpg");
+    background-image: url("images/backgroundImg.jpg");
     width: 100%;
 }
 
-#heroOne {
-    z-index: 5;
-    outline-style: none;
-}
-
-#heroTwo {
+.heroFull {
     display: none;
 }
 
@@ -135,13 +136,6 @@ hr {
     margin-top: 6%;
     margin-bottom: 0;
 }
-
-/* portfolio links & footer links - need to separate? */
-a {
-    display: block;  
-    text-decoration: none; 
-    color: #c6a530;
-} 
 
 /* ABOUT ME */
 #about {
@@ -176,6 +170,7 @@ h4:nth-of-type(3) {
 
 #quiz-app {
     width: 280px;
+    outline-style: double;
 }
 
 p {
@@ -199,6 +194,7 @@ h6{
 
 .portfolioFooter a {
     color: #0a1612;
+    text-decoration: none;
 }
 
 .hide {
@@ -210,9 +206,10 @@ h6{
     background-color: #1A2930;
 }
 
-.foot  a{
-    display: inline;
-}
+.foot, a {
+    text-decoration: none; 
+    color: #f1f1f1;
+} 
 
 
 /* M E D I A */
@@ -226,13 +223,17 @@ h6{
         font-size: x-large;
     }
 
-    #heroOne {
+    #nav-hero {
+        height: 60px;
+        margin-left: 40px;
+    }
+
+    .heroMobile {
         display: none;
     }
 
-    #heroTwo {
+    .heroFull {
         display: initial;
-        outline-style: none;
     }
 
     #quiz-app {
@@ -248,9 +249,8 @@ h6{
         display: none;
     }
 
-    .two {
-        position: relative;
-        top: 47%;
+    #more-soon {
+        margin: 55% 0;
     }
 
     .portfolioFooter {
@@ -261,10 +261,10 @@ h6{
     .wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 50px 240px 240px;
-        background-color: #C5C1C0;
+        grid-template-rows: 50px 440px;
+        background-image: url("images/backgroundImg.jpg");
         grid-gap: 10px;
-        grid-auto-rows: minmax(100px, auto);
+        grid-auto-rows: minmax(200px, auto);
     }
 
     .gridHead {
