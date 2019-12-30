@@ -128,8 +128,8 @@ nav {
     display: none;
 }
 
-.heroMobile {
-    margin-top: 60px;
+#hero-mobile {
+    margin: 15vh auto;
 }
 
 /* hr formatting */
@@ -239,6 +239,10 @@ h6{
 
     .heroFull {
         display: initial;
+    }
+
+    #hero-full {
+        margin: 10% auto;
     }
 
     #quiz-app {
