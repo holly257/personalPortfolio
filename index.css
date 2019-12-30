@@ -113,6 +113,13 @@ nav {
 /* intro */
 #intro {
     margin: 47px 0;
+    background-image: url("images/Background.jpg");
+    width: 100%;
+}
+
+#heroOne {
+    z-index: 5;
+    outline-style: none;
 }
 
 #heroTwo {
@@ -137,6 +144,10 @@ a {
 } 
 
 /* ABOUT ME */
+#about {
+    margin: 15px;
+}
+
 h4 {
     text-align: left;
     padding: 8px;
@@ -215,16 +226,13 @@ h6{
         font-size: x-large;
     }
 
-    #intro {
-        margin: 15%;
-    }
-
     #heroOne {
         display: none;
     }
 
     #heroTwo {
         display: initial;
+        outline-style: none;
     }
 
     #quiz-app {
