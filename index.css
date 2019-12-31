@@ -19,7 +19,6 @@ ul {
 }
 
 li {
-    float: right;
     padding: 4px;
     margin: 4px;
     font-size: 12px;
@@ -51,6 +50,7 @@ nav {
     margin-left: 10px;
     margin-top: 4px;
 }
+
 /* dropdown */
 .dropbtn {
     background-color: rgb(0, 0, 0, .00);
@@ -59,26 +59,23 @@ nav {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: black;
+    
 }
 
 .dropdown {
-    /* text-align: right; */
+    text-align: left;
     position: relative;
-    display: inline-block;
-
+    display: inline-block;    
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 50%;
+    background-color: rgb(0, 0, 0, .93);
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    right: 0;
 }
   
 .dropdown-content a {
@@ -86,9 +83,10 @@ nav {
     text-decoration: none;
     display: block;
 }
-  
-.dropdown-content a:hover {
-    background-color: #ddd
+
+/* not working */
+.hover {
+    background-color: white;
 }
 
 .show {
@@ -103,19 +101,6 @@ nav {
     background: #f1f1f1;
     z-index: 99;
 }
-
-/*  .menu-btn div {
-    position: absolute;
-    left: 100%;
-    top: 65%;
-    padding-right: 8px;
-    margin-top: -0.5em;
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: 200;
-    vertical-align: middle;
-    z-index: 99;
-}*/
 
 /* intro */
 #intro {
@@ -212,6 +197,15 @@ h6{
     background-color: rgb(0, 0, 0, .90);
     height: 58px;
     width: vw;
+}
+
+#footer {
+    height: 100%;
+}
+
+.foot {
+    float: right;
+    height: 100%;
 }
 
 .foot, a {
