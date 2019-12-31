@@ -84,7 +84,6 @@ nav {
     display: block;
 }
 
-/* not working */
 .hover {
     background-color: white;
 }
@@ -201,11 +200,15 @@ h6{
 
 #footer {
     height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .foot {
     float: right;
     height: 100%;
+    /* margin: 35px auto; */
 }
 
 .foot, a {
