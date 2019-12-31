@@ -5,7 +5,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: #0a1612;
+    color: black;
     text-align: center;
     margin: 0;
 }
@@ -38,7 +38,7 @@ nav {
     height: 58px;
     z-index: 10; 
     padding: 0;
-    background-color: #1A2930;
+    background-color: rgb(0, 0, 0, .90);
 }
 
 #nav-hero {
@@ -53,7 +53,7 @@ nav {
 }
 /* dropdown */
 .dropbtn {
-    background-color: #1A2930;
+    background-color: rgb(0, 0, 0, .00);
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -62,7 +62,7 @@ nav {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #1a2930;
+    background-color: black;
 }
 
 .dropdown {
@@ -82,7 +82,7 @@ nav {
 }
   
 .dropdown-content a {
-    color: #1a2930;
+    color: black;
     text-decoration: none;
     display: block;
 }
@@ -192,14 +192,14 @@ h6{
     display: inline-block;
     margin: 0 5% 5% 5%;
     font-size: 15px;
-    color: #0a1612;
-    border: 1px solid #1A2930;
+    color: black;
+    border: 1px solid black;
     outline-style: double;
     padding: 3px;
 }
 
 .portfolioFooter a {
-    color: #0a1612;
+    color: black;
     text-decoration: none;
 }
 
@@ -209,7 +209,9 @@ h6{
 
 /* footer */
 #page-footer {
-    background-color: #1A2930;
+    background-color: rgb(0, 0, 0, .90);
+    height: 58px;
+    width: vw;
 }
 
 .foot, a {
