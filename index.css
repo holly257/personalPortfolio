@@ -223,9 +223,9 @@ h6{
 }
 
 #footer {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
 }
 
 .foot, a {
@@ -307,8 +307,10 @@ h6{
         display: none;
     }
 
-    #more-soon {
-        margin: 55% 0;
+    .two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .portfolioFooter {
