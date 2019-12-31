@@ -1,9 +1,14 @@
-$(".dropbtn").on("click", function () {
-    document.getElementById("myDropdown").classList.toggle("show");
-})
+// $(function(){
+//     // $(".dropdown").hover(
+//     //     function(){
+//     //         $("#myDropdown").show();
+//     //     },
+//     //     function (){
+//     //         $("#myDropdown").hide();
+//     //     }
+//     // );
 
-$("#dropdown-list").on("click", "li", function () {
-    this.classList.toggle("hover");
-})
-
-// can't get mouseenter to work but click works 
+//         $("#dropdown-list").on("click", "li", function () {
+//             this.classList.toggle("hover");
+//         });
+// });
