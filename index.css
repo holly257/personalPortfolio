@@ -330,10 +330,18 @@ h6{
         font-size: 21px;
     }
 
-        /* still working on view */
+    #contact, #footer {
+        margin: 5px 30px;
+    }
+
     #footer {
         display: inline;
         text-align: center;
+    }
+
+    .foot {
+        display:inline-block;
+        font-size: 15px;
     }
 
 /* grid formatting */
