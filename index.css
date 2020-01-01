@@ -194,6 +194,7 @@ h4:nth-of-type(3) {
     background-image: url("images/backgroundImg.jpg");
     text-align: center;
     padding: 20px;
+    margin-bottom: 15px;
 }
 
 #quiz-app {
@@ -239,7 +240,6 @@ h6{
 }
 
 .foot, a {
-    text-decoration: none; 
     color: #f1f1f1;
 } 
 
@@ -308,6 +308,10 @@ h6{
         margin-top: 5%;
     }
 
+    .one {
+        margin: 15px;
+    }
+
     p {
         padding: 0 10%;
     }
@@ -326,11 +330,17 @@ h6{
         font-size: 21px;
     }
 
+    /* .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
 /* grid formatting */
     .wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 50px 440px;
+        grid-template-rows: 50px 500px;
         grid-gap: 10px;
         grid-auto-rows: minmax(200px, auto);
     }
