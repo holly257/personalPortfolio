@@ -55,7 +55,7 @@ nav {
     align-items: center;
 }
 
-#nav-hero {
+.nav-hero {
     height: 50px;
 }
 
@@ -278,7 +278,7 @@ h6{
         font-size: x-large;
     }
 
-    #nav-hero {
+    .nav-hero {
         height: 60px;
         margin-left: 40px;
     }
