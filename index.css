@@ -160,7 +160,7 @@ hr {
 
 .firstHr {
     margin-top: 6%;
-    margin-bottom: 0;
+    margin-bottom: 6%;
 }
 
 /* ABOUT ME */
@@ -198,6 +198,11 @@ h4:nth-of-type(3) {
 }
 
 #quiz-app {
+    width: 280px;
+    outline-style: double;
+}
+
+.pic {
     width: 280px;
     outline-style: double;
 }
