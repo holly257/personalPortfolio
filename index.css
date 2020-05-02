@@ -197,11 +197,6 @@ h4:nth-of-type(3) {
     margin-bottom: 15px;
 }
 
-#quiz-app {
-    width: 280px;
-    outline-style: double;
-}
-
 .pic {
     width: 280px;
     outline-style: double;
@@ -254,7 +249,6 @@ h6{
 }
 
 /* M E D I A */
-
 @media (min-width: 800px) {
     .dropdown-content {
         display: block;
@@ -304,11 +298,6 @@ h6{
         margin: 0 12.5%;
     }
 
-    #quiz-app {
-        width: 40%;
-        margin-top: 4%;
-    }
-
     #portfolio {
         margin-top: 5%;
     }
@@ -353,7 +342,7 @@ h6{
     .wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 50px 500px;
+        grid-template-rows: 50px 720px;
         grid-gap: 10px;
         grid-auto-rows: minmax(200px, auto);
     }
